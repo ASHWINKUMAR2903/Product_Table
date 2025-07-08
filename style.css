@@ -1,0 +1,38 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(0, 45, 30);
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.thead {
+    background-color: rgb(112, 148, 255);
+    color: rgb(217, 217, 217);
+    font-size: 1.6rem;
+}
+
+.tbody {
+    background-color: #37d32b;
+    font-size: 1.3rem;
+}
+
+td, th {
+    padding: 12px;
+    border: 2px solid #292929;
+}
+
+.tbody tr:nth-child(even) {
+    background-color: #9eea80;
+}
+
+.tbody tr:hover {
+    background-color: #ffc0c0;
+    transition: background-color 0.3s;
+}
